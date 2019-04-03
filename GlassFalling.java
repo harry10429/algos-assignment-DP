@@ -1,16 +1,7 @@
 /**
  * Glass Falling
  */
-public class GlassFalling {
 
-  // Do not change the parameters!
-  public int glassFallingRecur(int floors, int sheets) {
-    // Fill in here and change the return
-    if(sheets == 0) 
-    system.
-	  
-	  
-	  return 0;
   }
 
   public class GlassFalling {
@@ -53,8 +44,16 @@ public class GlassFalling {
 
 	  }
 
+	 // Optional:
+	// Pick whatever parameters you want to, just make sure to return an int.
+		public int glassFallingMemoized() {
+			    // Fill in here and change the return
+			    return 0;
+			  }
 
-	  // Do not change the parameters!
+	 
+		// Do not change the parameters!
+	 
 	 public int glassFallingBottomUp(int floors, int sheets) {
 	    // Fill in here and change the return
 		  int BottomUp[][] = new int [sheets+1][floors+1]; 
@@ -118,10 +117,5 @@ public class GlassFalling {
 	  }
 
 
-  // Optional:
-  // Pick whatever parameters you want to, just make sure to return an int.
-  public int glassFallingMemoized() {
-    // Fill in here and change the return
-    return 0;
-  }
+ 
 
