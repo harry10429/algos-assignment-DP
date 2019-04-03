@@ -106,7 +106,7 @@ public class GlassFalling {
 	     int minTrials1Recur = gf.glassFallingRecur(27, 2);
 	     int minTrials1Bottom = gf.glassFallingBottomUp(27, 2);
 	     // int minTrials2Recur = gf.glassFallingRecur(100, 3); 
-	     //the console not gonna output anything when add this lane.. says endless for loop
+	     //the console not gonna output anything when add this line.. says endless for loop
 	     
 	     int minTrials2Bottom = gf.glassFallingBottomUp(100,3);
 	     System.out.println(minTrials1Recur + " " + minTrials1Bottom);
